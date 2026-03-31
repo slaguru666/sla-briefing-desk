@@ -1,0 +1,9 @@
+{
+  "missionTypes": ["Retrieval", "Termination", "Escort", "Containment", "Public Order", "Counter-Ebb Sweep", "Evidence Recovery", "Black Bag"],
+  "sectors": ["Mort", "Cannibal Sector", "Downtown", "Industrial Spine", "The Docks", "Lower Downtown", "Sub-City Arcology", "Transit Hub"],
+  "targets": ["renegade operative", "corp data courier", "infected slop gang", "missing asset", "cult logistics cell", "rogue media crew", "biotech sample", "witness under protection"],
+  "contacts": ["Mr. Slayer liaison", "Department-M minder", "sector overseer", "anonymous tip line", "embedded media fixer", "field scientist", "security captain", "ops auditor"],
+  "complications": ["the target is already moving", "media drones are on scene", "Cannibal activity spikes nearby", "an internal rival team is on the same brief", "local law has sealed the zone", "the client withheld one critical fact", "the package is alive", "there is a clock on public exposure"],
+  "payoffs": ["8,000 credits plus expenses", "10,000 credits and media bonuses", "6,500 credits with expedited status review", "12,000 credits on silent completion", "9,000 credits and requisition priority", "7,500 credits plus salvage rights"],
+  "twists": ["the employer wants witnesses removed", "the job is bait for another target", "the package is compromised by Ebb bleed", "the evidence points back to SLA payroll", "the target is an innocent lookalike", "the extraction route is burned", "the media angle is the true objective", "an enemy operative is already wearing a company badge"]
+}

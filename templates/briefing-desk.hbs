@@ -1,0 +1,51 @@
+<form class="sla-briefing-form">
+  <div class="sla-briefing-grid">
+    <div class="sla-briefing-field">
+      <label>Job Name</label>
+      <input type="text" name="jobName" value="{{briefing.jobName}}">
+    </div>
+    <div class="sla-briefing-field">
+      <label>Mission Type</label>
+      <input type="text" name="missionType" value="{{briefing.missionType}}">
+    </div>
+    <div class="sla-briefing-field">
+      <label>Sector</label>
+      <input type="text" name="sector" value="{{briefing.sector}}">
+    </div>
+    <div class="sla-briefing-field">
+      <label>Target</label>
+      <input type="text" name="target" value="{{briefing.target}}">
+    </div>
+    <div class="sla-briefing-field">
+      <label>Primary Contact</label>
+      <input type="text" name="contact" value="{{briefing.contact}}">
+    </div>
+    <div class="sla-briefing-field">
+      <label>Payoff</label>
+      <input type="text" name="payoff" value="{{briefing.payoff}}">
+    </div>
+  </div>
+
+  <div class="sla-briefing-grid">
+    <div class="sla-briefing-field">
+      <label>Complication</label>
+      <textarea name="complication">{{briefing.complication}}</textarea>
+    </div>
+    <div class="sla-briefing-field">
+      <label>Twist</label>
+      <textarea name="twist">{{briefing.twist}}</textarea>
+    </div>
+  </div>
+
+  <div class="sla-briefing-field">
+    <label>Operational Notes</label>
+    <textarea name="notes">{{briefing.notes}}</textarea>
+  </div>
+
+  <div class="sla-briefing-actions">
+    <button type="button" data-action="randomize">Randomize</button>
+    <button type="button" data-action="chat">Post To Chat</button>
+    <button type="button" data-action="journal">Create Journal</button>
+    <button type="submit">Save Draft</button>
+  </div>
+</form>

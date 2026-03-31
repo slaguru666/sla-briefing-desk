@@ -1,0 +1,32 @@
+{
+  "id": "sla-briefing-desk",
+  "title": "SLA Briefing Desk",
+  "description": "Creates SLA Industries mission briefings, objectives, complications, and handouts for the table.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.350",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Tim Evans"
+    }
+  ],
+  "esmodules": [
+    "module/sla-briefing-desk.mjs"
+  ],
+  "styles": [
+    "styles/sla-briefing-desk.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/slaguru666/sla-briefing-desk/main/module.json",
+  "download": "https://github.com/slaguru666/sla-briefing-desk/releases/latest/download/sla-briefing-desk.zip",
+  "url": "https://github.com/slaguru666/sla-briefing-desk"
+}
