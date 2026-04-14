@@ -113,6 +113,7 @@ class SlaBriefingDeskApp extends FormApplication {
       await setDraft(draft);
       const journal = await JournalEntry.create({
         name: draft.jobName || "SLA Brief",
+        ownership: { default: CONST.DOCUMENT_OWNERSHIP_LEVELS.NONE },
         pages: [
           {
             name: "Briefing",
@@ -141,6 +142,7 @@ class SlaBriefingDeskApp extends FormApplication {
 }
 
 function installJournalButton(app, html) {
+  if (!game.user?.isGM) return;
   const root = getHtmlRoot(html);
   const header = root?.querySelector(".directory-header .header-actions, .directory-header .action-buttons");
   if (!header || header.querySelector(".sla-briefing-desk-open")) return;
